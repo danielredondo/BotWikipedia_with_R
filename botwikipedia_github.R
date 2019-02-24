@@ -18,7 +18,7 @@ tuit <- paste0("Top ", n, " Wikipedia de ayer [visitas]: ",
 for(i in 2:n) tuit <- paste0(tuit, ", ", top$article[i], " [", top$views[i], "]")
 tuit <- paste0(tuit, ".")
 
-# Conect with Twitter (see details at https://danielredondo.com/posts/20190224_botwikipedia/)
+# Connect with Twitter (see details at https://danielredondo.com/posts/20190224_botwikipedia/)
 library("rtweet")
 token <- create_token(
   app = "nombre de la aplicación",
