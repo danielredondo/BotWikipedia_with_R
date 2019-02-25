@@ -2,7 +2,6 @@
 library(pageviews)
 library(dplyr)
 
-
 # We extract data from yesterday, and exclude special pages
 top <- top_articles(project = "es.wikipedia", start = Sys.Date() - 1) %>%
   filter(!grepl(":", article)) %>%
