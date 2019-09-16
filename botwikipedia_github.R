@@ -36,7 +36,7 @@ while(nchar(tuit) > 280) {
   print(n)
 }
 
-# Conect with Twitter (see details at https://danielredondo.com/posts/20190224_botwikipedia/)
+# Connect with Twitter (see details at https://danielredondo.com/posts/20190224_botwikipedia/)
 library("rtweet")
 token <- create_token(
   app = "nombre de la aplicación",
